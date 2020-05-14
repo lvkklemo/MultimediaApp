@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AudioRecorderController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mj-br-dMo">
+                    <rect key="frame" x="147" y="164" width="120" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="EYb-vH-g7S"/>
+                        <constraint firstAttribute="height" constant="40" id="TUR-Xq-4tg"/>
+                    </constraints>
+                    <state key="normal" title="开始录音">
+                        <color key="titleColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="停止录音"/>
+                    <connections>
+                        <action selector="recordDidClick:" destination="-1" eventType="touchUpInside" id="M5C-Ud-lWu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsb-Rb-Rgl">
+                    <rect key="frame" x="167" y="264" width="80" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="SSF-Dd-rk6"/>
+                        <constraint firstAttribute="height" constant="40" id="sg3-2t-cv1"/>
+                    </constraints>
+                    <state key="normal" title="播放">
+                        <color key="titleColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="play:" destination="-1" eventType="touchUpInside" id="CAi-tc-HqQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hsb-Rb-Rgl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5Dt-f2-FUn"/>
+                <constraint firstItem="7mj-br-dMo" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="120" id="PnA-il-f3d"/>
+                <constraint firstItem="7mj-br-dMo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rkw-V1-yig"/>
+                <constraint firstItem="hsb-Rb-Rgl" firstAttribute="top" secondItem="7mj-br-dMo" secondAttribute="bottom" constant="60" id="sSo-4D-d5b"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>
