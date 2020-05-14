@@ -32,6 +32,7 @@
     if (_recorder==nil) {
         //录音保存路径
         NSString*path=[NSHomeDirectory() stringByAppendingString:@"/Documents/record"];
+        //NSString*path=[[NSBundle mainBundle] pathForResource:@"ab" ofType:@"mp3"];
         NSLog(@"%@",path);
         
         //录音设置
