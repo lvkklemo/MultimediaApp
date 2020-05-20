@@ -6,9 +6,16 @@
 //  Copyright © 2020 tecent. All rights reserved.
 //
 
+/*
+ *1.图片的采集和显示
+ *2.音频的录制和播放
+ *3.视频的录制和播放
+ */
 #import "ViewController.h"
 #import "ImagePickerController.h"
 #import "AudioRecorderController.h"
+#import "VideoController.h"
+
 @interface ViewController ()
 
 @end
@@ -30,7 +37,7 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (IBAction)vedioDidClick:(id)sender {
-    ImagePickerController*vc=[[ImagePickerController alloc] init];
+    VideoController*vc=[[VideoController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

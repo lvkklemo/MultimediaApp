@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>使用您麦克风</string>
+	<key>NSCameraUsageDescription</key>
+	<string>访问您的相机
+  请点击“好”以允许访问。
+
+访问您的相机</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>访问您的照片
+  请点击“好”以允许访问。
+
+  若不允许, 你将无法上传本地相册图片及视频内容。</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

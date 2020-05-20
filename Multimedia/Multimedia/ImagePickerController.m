@@ -75,12 +75,10 @@
             imageData = UIImageJPEGRepresentation(image, 1.0);
         }
         // 路径拼接,写入-----
-        NSString * imageSavePath ;
+        NSString*imageSavePath=[NSHomeDirectory() stringByAppendingString:@"/Documents/pic.png"];
+        NSLog(@"%@",imageSavePath);
         [imageData writeToFile:imageSavePath atomically:YES];
         
-
-        UIImagePNGRepresentation(image);
-        UIImageJPEGRepresentation(image, 1);
         //显示
         self.iconView.image = image;
         [self dismissViewControllerAnimated:YES completion:nil];

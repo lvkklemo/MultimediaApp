@@ -17,6 +17,8 @@
 		847B2387246D302600B28CE7 /* ImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847B2385246D302600B28CE7 /* ImagePickerController.xib */; };
 		847B238B246D3F2600B28CE7 /* AudioRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847B2389246D3F2600B28CE7 /* AudioRecorderController.m */; };
 		847B238C246D3F2600B28CE7 /* AudioRecorderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847B238A246D3F2600B28CE7 /* AudioRecorderController.xib */; };
+		847C0B95246E43C000FC240D /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C0B93246E43C000FC240D /* VideoController.m */; };
+		847C0B96246E43C000FC240D /* VideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847C0B94246E43C000FC240D /* VideoController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		847B2388246D3F2600B28CE7 /* AudioRecorderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioRecorderController.h; sourceTree = "<group>"; };
 		847B2389246D3F2600B28CE7 /* AudioRecorderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderController.m; sourceTree = "<group>"; };
 		847B238A246D3F2600B28CE7 /* AudioRecorderController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioRecorderController.xib; sourceTree = "<group>"; };
+		847C0B92246E43C000FC240D /* VideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		847C0B93246E43C000FC240D /* VideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		847C0B94246E43C000FC240D /* VideoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 				847B2388246D3F2600B28CE7 /* AudioRecorderController.h */,
 				847B2389246D3F2600B28CE7 /* AudioRecorderController.m */,
 				847B238A246D3F2600B28CE7 /* AudioRecorderController.xib */,
+				847C0B92246E43C000FC240D /* VideoController.h */,
+				847C0B93246E43C000FC240D /* VideoController.m */,
+				847C0B94246E43C000FC240D /* VideoController.xib */,
 				847B2370246D2CDD00B28CE7 /* Main.storyboard */,
 				847B2373246D2CDE00B28CE7 /* Assets.xcassets */,
 				847B2375246D2CDE00B28CE7 /* LaunchScreen.storyboard */,
@@ -147,6 +155,7 @@
 				847B2377246D2CDE00B28CE7 /* LaunchScreen.storyboard in Resources */,
 				847B2374246D2CDE00B28CE7 /* Assets.xcassets in Resources */,
 				847B2372246D2CDD00B28CE7 /* Main.storyboard in Resources */,
+				847C0B96246E43C000FC240D /* VideoController.xib in Resources */,
 				847B2387246D302600B28CE7 /* ImagePickerController.xib in Resources */,
 				847B238C246D3F2600B28CE7 /* AudioRecorderController.xib in Resources */,
 			);
@@ -162,6 +171,7 @@
 				847B236F246D2CDD00B28CE7 /* ViewController.m in Sources */,
 				847B237A246D2CDE00B28CE7 /* main.m in Sources */,
 				847B238B246D3F2600B28CE7 /* AudioRecorderController.m in Sources */,
+				847C0B95246E43C000FC240D /* VideoController.m in Sources */,
 				847B2386246D302600B28CE7 /* ImagePickerController.m in Sources */,
 				847B236C246D2CDD00B28CE7 /* AppDelegate.m in Sources */,
 			);

@@ -51,7 +51,7 @@
     return _recorder;
 }
 
-- (AVAudioPlayer *)play{
+- (AVAudioPlayer *)player{
     if (_player == nil) {
         //音频文件路径
         NSString*path=[NSHomeDirectory() stringByAppendingString:@"/Documents/record"];
