@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVq-wK-QAH">
-                                <rect key="frame" x="0.0" y="168" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="128" width="414" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="6gI-ba-WwA"/>
                                 </constraints>
@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRZ-Vc-xC9">
-                                <rect key="frame" x="0.0" y="328" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="248" width="414" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ahm-DV-gGj"/>
                                 </constraints>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ov-Ke-27U">
-                                <rect key="frame" x="0.0" y="248" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="188" width="414" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="izx-gt-2yg"/>
                                 </constraints>
@@ -48,18 +48,31 @@
                                     <action selector="voiceDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tsV-fS-bgb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHE-UN-fvO">
+                                <rect key="frame" x="0.0" y="308" width="414" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CAm-iw-MNB"/>
+                                </constraints>
+                                <state key="normal" title="下载"/>
+                                <connections>
+                                    <action selector="downloadAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xIa-IG-0G1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2ov-Ke-27U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2rO-RE-tvY"/>
-                            <constraint firstItem="2ov-Ke-27U" firstAttribute="top" secondItem="pVq-wK-QAH" secondAttribute="bottom" constant="40" id="84f-hx-0xA"/>
+                            <constraint firstItem="2ov-Ke-27U" firstAttribute="top" secondItem="pVq-wK-QAH" secondAttribute="bottom" constant="20" id="84f-hx-0xA"/>
+                            <constraint firstItem="HHE-UN-fvO" firstAttribute="top" secondItem="tRZ-Vc-xC9" secondAttribute="bottom" constant="20" id="87t-Jg-Rcp"/>
                             <constraint firstItem="tRZ-Vc-xC9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BEe-di-GgV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pVq-wK-QAH" secondAttribute="trailing" id="DLD-ER-rNT"/>
-                            <constraint firstItem="tRZ-Vc-xC9" firstAttribute="top" secondItem="2ov-Ke-27U" secondAttribute="bottom" constant="40" id="Fag-3y-iw7"/>
+                            <constraint firstItem="tRZ-Vc-xC9" firstAttribute="top" secondItem="2ov-Ke-27U" secondAttribute="bottom" constant="20" id="Fag-3y-iw7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2ov-Ke-27U" secondAttribute="trailing" id="GYB-9V-tXV"/>
                             <constraint firstItem="pVq-wK-QAH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jn7-2i-icR"/>
+                            <constraint firstItem="HHE-UN-fvO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SNP-WH-PlL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tRZ-Vc-xC9" secondAttribute="trailing" id="XUJ-eG-aq9"/>
-                            <constraint firstItem="pVq-wK-QAH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="f4l-Q1-gWW"/>
+                            <constraint firstItem="pVq-wK-QAH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="f4l-Q1-gWW"/>
+                            <constraint firstItem="HHE-UN-fvO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tV9-mM-rhx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

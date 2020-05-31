@@ -15,6 +15,7 @@
 #import "ImagePickerController.h"
 #import "AudioRecorderController.h"
 #import "VideoController.h"
+#import "DownloadController.h"
 
 @interface ViewController ()
 
@@ -41,4 +42,8 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (IBAction)downloadAction:(id)sender {
+    DownloadController*vc=[[DownloadController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end
